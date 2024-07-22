@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <header class="header">
+      <h1>Emplyoees Management System</h1>
+      <button class="CreateEmployee">Add Emplyoees</button>
+    </header>
+
+    <div class="employees">
+      <div class="employees_name">
+        <span class="employees_name-title">Emplyoees List</span>
+        <div class="employees_name--list"></div>
+      </div>
+      <div class="employees_single">
+        <span class="employees_single-title">Emplyoees Information</span>
+        <div class="employees_single--list"></div>
+      </div>
+    </div>
+
+    <div class="addEmployee">
+      <form class="addEmployee--create">
+        Add an Employee
+        <div>
+          <input
+          name="firstName"
+          type="text"
+          placeholder="FirstName"
+          required>
+          <input type="text" name="lastName" placeholder="LastName" required>
+        </div>
+        <input type="date" name="dob" class="addEmployee--dob" placeholder="Date-of-Birth">
+        <input type="Address" name="address"  placeholder="Address" required>
+        <input type="number" name="contactNumber" placeholder="Phone No" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="number" name="age"  placeholder="Age" required>
+        <input type="number" name="salary"  placeholder="Salary" required>
+        <input type="text" name="iamgeUrl" placeholder="Image(Optional)" required>
+        <button class="addSumbit" name="submit">Submit</button>
+      </form>
+
+    </div>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./scipt.js" type="module"></script>
+  </body>
+</html>
+
